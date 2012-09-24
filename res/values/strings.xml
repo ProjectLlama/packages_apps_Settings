@@ -31,11 +31,11 @@
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
     <string name="header_category_wireless_networks">WIRELESS &amp; NETWORKS</string>
     <!-- Settings main menu category heading. Device (Sound, display, battery, applications...). [CHAR LIMIT=40] -->
-    <string name="header_category_device">DEVICE</string>
+    <string name="header_category_device">DEVICE SETTINGS</string>
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
-    <string name="header_category_personal">PERSONAL</string>
+    <string name="header_category_personal">PERSONAL SETTINGS</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
-    <string name="header_category_system">SYSTEM</string>
+    <string name="header_category_system">OTHER</string>
 
     <!-- Phone info -->
     <!-- Phone Info screen. Button label to turn on the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
@@ -1781,9 +1781,9 @@
     <!--  About device screen, Hardware info -->
     <string name="hardware_info">Hardware info</string>
     <!--  About device Screen, hardware info, rear camera -->
-    <string name="device_rear_camera">Rear camera</string>
+    <string name="device_rear_camera">Primary camera</string>
     <!--  About device Screen, hardware info, front camera -->
-    <string name="device_front_camera">Front facing camera</string>
+    <string name="device_front_camera">Front camera</string>
     <!--  About device Screen, hardware info, screen res -->
     <string name="device_screen_resolution">Screen resolution</string>
     <!--  About device Screen, hardware info, GPU info -->
@@ -1791,7 +1791,7 @@
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">CPU</string>
     <!-- About phone screen, Free memory info -->
-    <string name="mem_info">Memory</string>
+    <string name="mem_info">Usable RAM</string>
     <!-- About phone screen, status item label -->
     <string name="firmware_version">Android version</string>
     <!-- About phone screen, status item label-->
@@ -1806,13 +1806,13 @@
     <!-- About phone screen, show when a value of some status item is unavailable. -->
     <string name="device_info_not_available">Not available</string>
     <!-- About phone screen, phone status screen title -->
-    <string name="device_status_activity_title">Status</string>
+    <string name="device_status_activity_title">More</string>
     <!-- About phone screen, title of the item to go into the Phone status screen -->
     <string name="device_status">Status</string>
     <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
     <string name="device_status_summary" product="tablet">Status of the battery, network, and other information</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
-    <string name="device_status_summary" product="default">Phone number, signal, etc.</string>
+    <string name="device_status_summary" product="default">Phone number, signal, battery, network and more.</string>
     <!-- Main settings screen item's title to go into the storage settings screen [CHAR LIMIT=25] -->
     <string name="storage_settings" >Storage</string>
     <!-- Storage settings screen title -->
