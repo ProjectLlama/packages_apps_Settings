@@ -58,10 +58,10 @@
         android:icon="@drawable/empty_icon" />
 
     <!-- Quick Links -->
-    <header android:title="@string/quick_links_title" />
+    <header android:title="@string/llama_title" />
 
     <header android:icon="@drawable/ic_settings_rom_control"
-            android:title="@string/rom_control_title">
+            android:title="@string/customisation_title">
         <intent
                 android:action="android.intent.action.MAIN"
                 android:targetClass="com.aokp.romcontrol.ROMControlActivity"

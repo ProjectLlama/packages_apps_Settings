@@ -4150,9 +4150,9 @@
     <string name="safe_headset_restore_title">Safe headset volume</string>
     <string name="safe_headset_restore_summary">Prevent loud volume levels when headset is first plugged in</string>
 
-    <string name="quick_links_title">Project Llama</string>
-    <string name="rom_control_title">Customize ROM</string>
-    <string name="themes_title">Theme Engine</string>
+    <string name="llama_title">Project Llama</string>
+    <string name="customisation_title">ROM Customisation</string>
+    <string name="themes_title">UI Customisation</string>
 
     <string name="mod_version">Project Llama version</string>
     <string name="mod_version_default">Unknown</string>
