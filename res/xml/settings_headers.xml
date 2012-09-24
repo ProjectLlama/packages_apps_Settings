@@ -68,6 +68,14 @@
                 android:targetPackage="com.aokp.romcontrol" />
     </header>
 
+    <header android:icon="@drawable/ic_bt_cellphone"
+            android:title="@string/phonemotion_title">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="tk.projectllama.PhoneMotion.PhoneMotion"
+                android:targetPackage="tk.projectllama.PhoneMotion" />
+    </header>
+
     <header android:icon="@drawable/ic_settings_themes"
             android:title="@string/themes_title">
         <intent

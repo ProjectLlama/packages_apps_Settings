@@ -4151,11 +4151,12 @@
     <string name="safe_headset_restore_summary">Prevent loud volume levels when headset is first plugged in</string>
 
     <string name="llama_title">Project Llama</string>
-    <string name="customisation_title">ROM Customisation</string>
-    <string name="themes_title">UI Customisation</string>
+    <string name="customisation_title">AOKP Settings</string>
+    <string name="phonemotion_title">PhoneMotion Settings</string>
+    <string name="themes_title">Theme Settings</string>
 
     <string name="mod_version">Project Llama version</string>
-    <string name="mod_version_default">Unknown</string>
+    <string name="mod_version_default">Unknown :(</string>
     <string name="link_volume_ringtones">Link volumes</string>
     <string name="link_volume_mutes">Link mute states</string>
     <string name="toast_link_volume_ringtones">"Make sure to change your volume to re-set your notification volume to match your ringtone volume."</string>
