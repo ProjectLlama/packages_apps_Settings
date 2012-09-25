@@ -72,7 +72,7 @@
             android:title="@string/phonemotion_title">
         <intent
                 android:action="android.intent.action.MAIN"
-                android:targetClass="tk.projectllama.PhoneMotion.PhoneMotion"
+                android:targetClass="tk.projectllama.PhoneMotion.Main"
                 android:targetPackage="tk.projectllama.PhoneMotion" />
     </header>
 
