@@ -2359,7 +2359,7 @@
     </string>
 
     <!-- Device specific settings -->
-    <string name="advanced_settings_title">Device options</string>
+    <string name="advanced_settings_title">Device specific settings</string>
 
     <!-- Applications Settings --> <skip />
     <!-- Applications settings screen, setting option name for the user to go to the screen to manage installed applications  -->
@@ -4153,6 +4153,8 @@
     <string name="llama_title">Project Llama</string>
     <string name="customisation_title">AOKP Settings</string>
     <string name="phonemotion_title">PhoneMotion Settings</string>
+    <string name="launcher_title">Slingshot Settings</string>
+    <string name="music_title">Piñata Settings</string>
     <string name="themes_title">Theme Settings</string>
 
     <string name="mod_version">Project Llama version</string>

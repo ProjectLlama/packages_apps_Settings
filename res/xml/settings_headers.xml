@@ -57,7 +57,7 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
-    <!-- Quick Links -->
+    <!-- Llama Links -->
     <header android:title="@string/llama_title" />
 
     <header android:icon="@drawable/ic_settings_rom_control"
@@ -68,12 +68,28 @@
                 android:targetPackage="com.aokp.romcontrol" />
     </header>
 
-    <header android:icon="@drawable/ic_bt_cellphone"
+    <header android:icon="@drawable/ic_settings_phonemotion"
             android:title="@string/phonemotion_title">
         <intent
                 android:action="android.intent.action.MAIN"
                 android:targetClass="tk.projectllama.PhoneMotion.Main"
                 android:targetPackage="tk.projectllama.PhoneMotion" />
+    </header>
+
+    <header android:icon="@drawable/ic_settings_launcher"
+            android:title="@string/launcher_title">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="tk.projectllama.slingshot.preference.Preferences"
+                android:targetPackage="tk.projectllama.slingshot" />
+    </header>
+
+    <header android:icon="@drawable/ic_settings_music"
+            android:title="@string/music_title">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="tk.projectllama.Pinata.PreferencesActivity"
+                android:targetPackage="tk.projectllama.Pinata" />
     </header>
 
     <header android:icon="@drawable/ic_settings_themes"
