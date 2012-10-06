@@ -62,6 +62,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String KEY_FIRMWARE_VERSION = "firmware_version";
     private static final String KEY_UPDATE_SETTING = "additional_system_update_settings";
     private static final String KEY_MOD_VERSION = "mod_version";
+    private static final String KEY_PL_CODENAME = "pl_codename";
+    private static final String KEY_PL_CODENAME_SMALL = "pl_codename_small";
+    private static final String KEY_PL_DEVICE_MAINTAINER = "pl_device_maintainer";
 
     private static final String KEY_DEVICE_CPU = "device_cpu";
     private static final String KEY_DEVICE_GPU = "device_gpu";
@@ -85,8 +88,14 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
-        setValueSummary(KEY_MOD_VERSION, "ro.aokp.version");
+        setValueSummary(KEY_MOD_VERSION, "ro.llama.version");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
+        setValueSummary(KEY_PL_CODENAME, "ro.llama.codename");
+        findPreference(KEY_PL_CODENAME).setEnabled(true);
+        setValueSummary(KEY_PL_CODENAME_SMALL, "ro.llama.codenamesmall");
+        findPreference(KEY_PL_CODENAME_SMALL).setEnabled(true);
+        setValueSummary(KEY_PL_DEVICE_MAINTAINER, "ro.llama.maintainer");
+        findPreference(KEY_PL_DEVICE_MAINTAINER).setEnabled(true);
 
         addStringPreference(KEY_DEVICE_CPU,
                 SystemProperties.get("ro.device.cpu", getCPUInfo()));
@@ -158,6 +167,45 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
                 }
             }
         } else if (prefKey.equals(KEY_MOD_VERSION)) {
+            System.arraycopy(mHits, 1, mHits, 0, mHits.length-1);
+            mHits[mHits.length-1] = SystemClock.uptimeMillis();
+            if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setClassName("android",
+                        com.android.internal.app.AOKPLogoActivity.class.getName());
+                try {
+                    startActivity(intent);
+                } catch (Exception e) {
+                    Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
+                }
+            }
+        } else if (prefKey.equals(KEY_PL_CODENAME)) {
+            System.arraycopy(mHits, 1, mHits, 0, mHits.length-1);
+            mHits[mHits.length-1] = SystemClock.uptimeMillis();
+            if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setClassName("android",
+                        com.android.internal.app.AOKPLogoActivity.class.getName());
+                try {
+                    startActivity(intent);
+                } catch (Exception e) {
+                    Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
+                }
+            }
+        } else if (prefKey.equals(KEY_PL_CODENAME_SMALL)) {
+            System.arraycopy(mHits, 1, mHits, 0, mHits.length-1);
+            mHits[mHits.length-1] = SystemClock.uptimeMillis();
+            if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setClassName("android",
+                        com.android.internal.app.AOKPLogoActivity.class.getName());
+                try {
+                    startActivity(intent);
+                } catch (Exception e) {
+                    Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
+                }
+            }
+        } else if (prefKey.equals(KEY_PL_DEVICE_MAINTAINER)) {
             System.arraycopy(mHits, 1, mHits, 0, mHits.length-1);
             mHits[mHits.length-1] = SystemClock.uptimeMillis();
             if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {

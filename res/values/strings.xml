@@ -4158,7 +4158,15 @@
     <string name="themes_title">Theme Settings</string>
 
     <string name="mod_version">Project Llama version</string>
-    <string name="mod_version_default">Unknown :(</string>
+    <string name="mod_version_default">failed to get string</string>
+    <string name="pl_codename">Project Llama codename</string>
+    <string name="pl_codename_default">Weekly build - no codename</string>
+    <string name="pl_codename_small">Project Llama codename number</string>
+    <string name="pl_codename_small_default">Weekly build - no codename</string>
+    <string name="pl_device_maintainer">Device maintainer</string>
+    <string name="pl_device_maintainer_default">This device isn't officially supported by Project Llama.</string>
+
+
     <string name="link_volume_ringtones">Link volumes</string>
     <string name="link_volume_mutes">Link mute states</string>
     <string name="toast_link_volume_ringtones">"Make sure to change your volume to re-set your notification volume to match your ringtone volume."</string>

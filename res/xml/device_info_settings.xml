@@ -165,6 +165,24 @@
                 android:title="@string/mod_version"
                 android:summary="@string/mod_version_default" />
 
+        <!-- Project Llama Codename -->
+        <Preference android:key="pl_codename"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/pl_codename"
+                android:summary="@string/pl_codename_default" />
+
+        <!-- Project Llama Codename Number -->
+        <Preference android:key="pl_codename_small"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/pl_codename_small"
+                android:summary="@string/pl_codename_small_default" />
+
+        <!-- Project Llama Device Maintainer -->
+        <Preference android:key="pl_device_maintainer"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/pl_device_maintainer"
+                android:summary="@string/pl_device_maintainer_default" />
+
         <!-- Detailed build version -->
         <Preference android:key="build_number" 
                 style="?android:preferenceInformationStyle"
