@@ -4164,7 +4164,7 @@
     <string name="pl_codename_small">Project Llama codename number</string>
     <string name="pl_codename_small_default">Weekly build - no codename</string>
     <string name="pl_device_maintainer">Device maintainer</string>
-    <string name="pl_device_maintainer_default">This device isn't officially supported by Project Llama.</string>
+    <string name="pl_device_maintainer_default">This device isn\'t officially supported by Project Llama.</string>
 
 
     <string name="link_volume_ringtones">Link volumes</string>
