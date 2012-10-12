@@ -299,7 +299,7 @@
     <string name="owner_info_settings_title" msgid="2723190010708381889">"Tulajdonosi adatok"</string>
     <string name="owner_info_settings_summary" msgid="3800834657847339570"></string>
     <string name="owner_info_settings_edit_text_hint" msgid="4608681417960923911">"Írja be a lezárt képernyőn megjelenítendő szöveget"</string>
-    <string name="location_settings_title" msgid="8935806698251432196">"Helyszolgáltatások"</string>
+    <string name="location_settings_title" msgid="4483843407328665068">"Helyhozzáférés"</string>
     <string name="security_settings_title" msgid="7945465324818485460">"Biztonság"</string>
     <string name="security_settings_summary" msgid="967393342537986570">"Saját pozíció beállítása, képernyőzár feloldása, SIM-kártya zárolása, hitelesítési adatok tárolójának zárolása"</string>
     <string name="cdma_security_settings_summary" msgid="6068799952798901542">"Saját pozíció beállítása, képernyőzár feloldása, hitelesítési adatok tárolójának zárolása"</string>
@@ -899,16 +899,20 @@
     <string name="tethering_help_button_text" msgid="656117495547173630">"Súgó"</string>
     <string name="network_settings_title" msgid="7967552516440151852">"Mobilhálózatok"</string>
     <string name="location_title" msgid="1029961368397484576">"Saját pozíció"</string>
-    <string name="location_network_based" msgid="5569673665032992664">"A Google helyszolgáltatása"</string>
-    <string name="location_neighborhood_level" msgid="2948129720516513300">"Helyadatok küldésének engedélyezése. Az alkalmazások Wi-Fi és mobil hálózatok adatait is használhatják a helymeghatározáshoz."</string>
+    <string name="location_network_based" msgid="7472814266821714527">"Hely Wi-Fi és mobilhálózat alapján"</string>
+    <string name="location_neighborhood_level" msgid="5626515380188353712">"Engedélyezze az alkalmazásoknak, hogy a Google helymeghatározó szolgáltatásával gyorsabban megbecsüljék tartózkodási helyét. A névtelen helyadatok összegyűjtés után a Google-hoz kerülnek."</string>
     <string name="location_neighborhood_level_wifi" msgid="7457348712272184793">"Helymeghatározás Wi-Fi-vel"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS-műholdak"</string>
-    <string name="location_street_level" msgid="4244496898967415234">"Engedélyezze a GPS használatát az alkalmazások számára tartózkodási helyének meghatározása érdekében"</string>
+    <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Engedélyezze az alkalmazások számára a GPS használatát a táblagépén a tartózkodási helyének meghatározásához"</string>
+    <string name="location_street_level" product="default" msgid="4617445745492014203">"Engedélyezze az alkalmazások számára a GPS használatát a telefonján a tartózkodási helyének meghatározásához"</string>
     <string name="assisted_gps" msgid="4649317129586736885">"Támogatott GPS használata"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Szerver használata a GPS mellett (a hálózati forgalom csökkentéséhez ne jelölje be)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Szerver használata a GPS mellett (a GPS teljesítményének növeléséhez ne jelölje be)"</string>
     <string name="use_location_title" msgid="5206937465504979977">"Hely és Google-keresés"</string>
     <string name="use_location_summary" msgid="3978805802386162520">"Engedélyezze, hogy a Google felhasználja helyadatait a jobb keresési eredményekhez és egyebekhez."</string>
+    <string name="location_access_title" msgid="7064108942964081243">"Hozzáférés a saját pozícióhoz"</string>
+    <string name="location_access_summary" msgid="69031404093194341">"Engedélyezze az engedélyt kérő alkalmazásoknak a helyadatok használatát"</string>
+    <string name="location_sources_heading" msgid="1278732419851088319">"Forráshelyek"</string>
     <string name="about_settings" product="tablet" msgid="593457295516533765">"A táblagépről"</string>
     <string name="about_settings" product="default" msgid="1743378368185371685">"A telefonról"</string>
     <string name="about_settings_summary" msgid="3371517697156165959">"Jogi információk, állapot, szoftververzió megtekintése"</string>
@@ -1701,4 +1705,119 @@
     <string name="help_label" msgid="1107174367904110532">"Súgó"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Cellán belüli adások"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Válassza ki a megjelenítendő vészriasztások típusait."</string>
+    <string name="safe_headset_restore_title">Biztonságos fejhallgató hangerő</string>
+    <string name="safe_headset_restore_summary">Megelőzi a hangos hangerőt a fejhallgató bedugásakor</string>
+    <!-- Sound settings screen, setting check box label -->
+    <string name="volume_adjust_sounds_enable_title">Hangerő állítási hang</string>
+    <!-- Sound settings screen, setting check box summary -->
+    <string name="volume_adjust_sounds_enable_summary">Hangot ad miközben a hardveres gombbal állítod a hangerőt</string>
+    <!-- Sound settings screen, setting check box label -->
+    <string name="camera_sounds_title">Kamera hangok</string>
+    <string name="camera_sounds_summary">FIGYELMEZTETÉS!: Kamera hangjának tiltása némely területen törvénytelen!</string>
+
+    <!-- Backlight  -->
+    <string name="backlight_title">Automatikus háttérvilágítás</string>
+    <string name="backlight_summary">Szintek és szűrés állítás</string>
+    <string name="light_filter_title">Fényérzékelő szürő</string>
+    <string name="light_filter_enabled_title">Engedélyez</string>
+    <string name="light_filter_enabled_summary">Átlagos szenzor adatokat használ a villogás csökkentésére</string>
+    <string name="light_filter_window_title">Ablak hossza</string>
+    <string name="light_filter_window_summary">Szűrési értéke az átlagos szenzor érték a periódusban</string>
+    <string name="light_filter_reset_title">Alaphelyzeti küszöb</string>
+    <string name="light_filter_reset_summary">Eltérő minták jelenlegi átlagos alaphelyzeti küszöbe</string>
+    <string name="light_filter_interval_title">Mintavételezési idő</string>
+    <string name="light_filter_interval_summary">Alacsony érték növeli a pontosságot, de több CPU-t használ</string>
+    <string name="light_levels_title">Világítási szintek</string>
+    <string name="light_levels_enabled_title">Egyéni használata</string>
+    <string name="light_levels_dim_title">Képernyő homályos szint</string>
+    <string name="light_levels_dim_summary">Képernyő fényének homályosítása</string>
+    <string name="light_levels_editor_title">Egyéni szintek szerkesztése\u2026</string>
+    <string name="light_decrease_enabled_title">Fényerő csökkentés engedélyezése</string>
+    <string name="light_decrease_enabled_summary">Engedélyei a fényerő csökkentést. Hiszterézist használ a villodzás csökkentésére</string>
+    <string name="light_decrease_hysteresis_title">Hiszterézis csökknetése</string>
+    <string name="light_decrease_hysteresis_summary">Szenzor szintek átfedése lefelé</string>
+
+    <!-- Light sensor levels  -->
+    <string name="ll_title">Fényérzékelő szintek</string>
+    <string name="ll_header_upper">Felső</string>
+    <string name="ll_header_lower">Alsó</string>
+    <string name="ll_header_lcd">Képernyő</string>
+    <string name="ll_header_btn">Gombok</string>
+    <string name="ll_header_kb">Billentyűzet</string>
+    <string name="ll_lux">Szenzor (szűrt / nyers):</string>
+    <string name="ll_lcd">Képernyő:</string>
+    <string name="ll_btn">Gombok:</string>
+    <string name="ll_kb">Billentyűzet:</string>
+    <string name="ll_disabled">letiltva</string>
+    <string name="ll_default">Alapérték betöltése</string>
+    <string name="ll_save">Ment &amp; alkalmaz</string>
+    <string name="ll_reload">Jelenlegi újratöltése</string>
+    <string name="ll_bad_levels">Szinteket nővelni kell</string>
+    <string name="ll_num_levels">Szintek számának beállítása</string>
+
+    <!-- GPS Source selection -->
+    <string name="location_gps_source_title">GPS forrás</string>
+    <string name="location_gps_source_summary">Külső Bluetooth GPS antenna vagy belső GPS antenna használata</string>
+    <string name="location_gps_source_notification_title">Figyelmeztetés</string>
+    <string name="location_gps_source_notification">A GPS forrás váltva lesz! GPS tiltva lesz. Használat előtt újra engedélyezni kell!</string>
+
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB hálózaton keresztül</string>
+    <string name="adb_over_network_summary">Engedélyezi a  TCP/IP hibakeresést hálózati csatolón (Wi-Fi, USB networks). Újraindítás után visszaáll.</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">Figyelmeztetés: Ha engedélyezed, a telefon nyitva lesz minden hálózaton a behatolásokra, beleértve a GSM hálózatot is!\n\nCsak megbízható hálózaton használd.\n\nBiztosan engedélyezni akarod a funkciót?</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Eszköz neve</string>
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">USB hibakeresés értesítés</string>
+    <string name="adb_notify_summary">Értesítés megjelenítése USB hibakeresés módban</string>
+
+    <!-- Anonymous Statistics #CM -->
+    <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
+    <string name="anonymous_statistics_title">AOKP Statiszkikák</string>
+    <string name="anonymous_statistics_summary">Anonim statisztikák küldése, hogy jobbá tegyük az AOKP-t</string>
+    <string name="anonymous_statistics_warning_title">Rólunk</string>
+    <string name="anonymous_statistics_warning">Az elküldött adat nem tartalmaz személyes adatot. Nem tartalmaz azonosítót, nem sérti személyes jogaidat, személyes adataidat Hetente küldi rendszerindítás után.\n\nAz adatokat küldés előtt az Adat előnézetben tudod ellenőrizni.</string>
+    <string name="enable_reporting_title">Jelentés engedélyezése</string>
+    <string name="preview_data_title">Adat előnézet</string>
+    <string name="preview_data_summary">%s</string>
+    <string name="view_stats_title">Statisztika megnézése</string>
+    <string name="anonymous_learn_more">További információ</string>
+
+    <!-- Anonymous Statistics - Notification -->
+    <string name="anonymous_notification_desc">Engedélyezi vagy nem az AOKP statisztikát</string>
+
+    <!-- Anonymous Statistics - Preview -->
+    <string name="preview_id_title">Egyedi azonosító</string>
+    <string name="preview_device_title">Eszköz</string>
+    <string name="preview_version_title">Verzió</string>
+    <string name="preview_country_title">Ország</string>
+    <string name="preview_carrier_title">Szolgáltató</string>
+
+    <!--  About device screen, Hardware info -->
+    <string name="hardware_info">Hardver információ</string>
+    <!--  About device Screen, hardware info, rear camera -->
+    <string name="device_rear_camera">Hátsó kamera</string>
+    <!--  About device Screen, hardware info, front camera -->
+    <string name="device_front_camera">Elülső kamera</string>
+    <!--  About device Screen, hardware info, screen res -->
+    <string name="device_screen_resolution">Képernyő felbontás</string>
+
+        <!-- Quiet hours #CM -->
+    <string name="quiet_hours_title">Csendes órák</string>
+    <string name="quiet_hours_summary">Az eszköz csendes időszakának beállítása</string>
+    <string name="quiet_hours_enabled_title">Engedélyezi a csendes órákat</string>
+    <string name="quiet_hours_start">Csendes órák kezdete</string>
+    <string name="quiet_hours_start_summary">Mikortól kezdődjön az időszak</string>
+    <string name="quiet_hours_end">Csendes órák vége</string>
+    <string name="quiet_hours_end_summary">Mikor legyen vége az időszaknak</string>
+    <string name="quiet_hours_notifications_title">Némitás értesítési hang</string>
+    <string name="quiet_hours_ringer_title">Néma telefon rezgés</string>
+    <string name="quiet_hours_still_title">Rezgés tiltása</string>
+    <string name="quiet_hours_dim_title">Értesítési fény tiltása</string>
+    <string name="quiet_hours_active_from">Aktív</string>
+    <string name="quiet_hours_active_to">között</string>
+
+    <string name="vibration_title">Telefon rezgés</string>
+
 </resources>
