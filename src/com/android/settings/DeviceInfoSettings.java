@@ -179,8 +179,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
             mHits[mHits.length-1] = SystemClock.uptimeMillis();
             if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {
                 Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.setClassName("android",
-                        com.android.internal.app.AOKPLogoActivity.class.getName());
+                intent.setClassName("com.android.settings",
+                        com.android.settings.llama.LlamaLogoActivity.class.getName());
                 try {
                     startActivity(intent);
                 } catch (Exception e) {
