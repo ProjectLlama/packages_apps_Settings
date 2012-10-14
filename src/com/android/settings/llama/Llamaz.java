@@ -244,7 +244,7 @@ public class Llamaz extends Activity {
             for(int i=0; i<NUM_LLAMAS; i++) {
                 LLAMA nv = new LLAMA(getContext(), null);
                 addView(nv, wrap);
-                nv.z = ((float)i/NUM_LLAMASS);
+                nv.z = ((float)i/NUM_LLAMAS);
                 nv.z *= nv.z;
                 nv.reset();
                 nv.x = (randfrange(0, boardWidth));
