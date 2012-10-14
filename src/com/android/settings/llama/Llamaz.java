@@ -128,7 +128,7 @@ public class Llamaz extends Activity {
             }
 
             private void pickLlama() {
-                int LlamaId = pickInt(LlamaS);
+                int LlamaId = pickInt(LLAMAS);
                 if (randfrange(0,1) <= LUCKY) {
                     LlamaId = R.drawable.llama;
                 }
@@ -241,10 +241,10 @@ public class Llamaz extends Activity {
                         ViewGroup.LayoutParams.WRAP_CONTENT,
                         ViewGroup.LayoutParams.WRAP_CONTENT);
 
-            for(int i=0; i<NUM_LlamaS; i++) {
+            for(int i=0; i<NUM_LLAMAS; i++) {
                 LLAMA nv = new LLAMA(getContext(), null);
                 addView(nv, wrap);
-                nv.z = ((float)i/NUM_LlamaS);
+                nv.z = ((float)i/NUM_LLAMASS);
                 nv.z *= nv.z;
                 nv.reset();
                 nv.x = (randfrange(0, boardWidth));
