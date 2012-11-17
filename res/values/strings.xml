@@ -4166,13 +4166,38 @@
     <string name="safe_headset_restore_title">Safe headset volume</string>
     <string name="safe_headset_restore_summary">Prevent loud volume levels when headset is first plugged in</string>
 
-    <string name="llama_title">Project Llama</string>
-    <string name="customisation_title">AOKP Settings</string>
+    <!-- Headers -->
+
+    <string name="project_llama_header">PROJECT LLAMA</string>
+    <string name="aokp_header">AOKP</string>
+    <string name="paranoid_android_header">PARANOID ANDROID</string>
+
+    <!-- Project Llama -->
     <string name="phonemotion_title">PhoneMotion Settings</string>
     <string name="launcher_title">Slingshot Settings</string>
     <string name="music_title">Piñata Settings</string>
     <string name="themes_title">Theme Settings</string>
 
+    <!-- AOKP -->
+    <string name="aokp_about">About AOKP</string>
+    <string name="aokp_userinterface">User Interface</string>
+    <string name="aokp_lockscreens">Lockscreen</string>
+    <string name="aokp_navbar">Navigation Bar</string>
+    <string name="aokp_statusbarbattery">Status Bar Battery</string>
+    <string name="aokp_statusbarclock">Status Bar Clock</string>
+    <string name="aokp_statusbartoggles">Status Bar Toggles</string>
+    <string name="aokp_statusbarsignals">Status Bar Signals</string>
+    <string name="aokp_ledcontrol">LED Control</string>
+    <string name="aokp_sound">Sound mods</string>
+    <string name="aokp_weather">Weather</string>
+    <string name="aokp_vibrations">Vibrations</string>
+    <string name="aokp_performance">Performance</string>
+
+    <!-- Paranoid Android -->
+    <string name="paranoid_settings">Paranoid settings</string>
+
+
+    <!-- Custom about strings -->
     <string name="mod_version">Project Llama version</string>
     <string name="mod_version_default">failed to get string</string>
     <string name="pl_codename">Project Llama codename</string>
@@ -4278,7 +4303,6 @@
     <string name="ll_reload">Reload current</string>
     <string name="ll_bad_levels">Levels must be increasing</string>
     <string name="ll_num_levels">Set number of levels</string>
-    <string name="paranoid_settings">Paranoid Settings</string>
     <string name="vibration_title">Phone vibration</string>
 
      <!-- Stylus Icon -->

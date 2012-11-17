@@ -57,16 +57,13 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
-    <!-- Llama Links -->
-    <header android:title="@string/llama_title" />
+    <!-- ######################## -->
+    <!-- List o' mods             -->
+    <!-- ######################## -->
 
-    <header android:icon="@drawable/ic_settings_rom_control"
-            android:title="@string/customisation_title">
-        <intent
-                android:action="android.intent.action.MAIN"
-                android:targetClass="com.aokp.romcontrol.ROMControlActivity"
-                android:targetPackage="com.aokp.romcontrol" />
-    </header>
+    <!-- Project Llama -->
+
+    <header android:title="@string/project_llama_header" />
 
     <header android:icon="@drawable/ic_settings_phonemotion"
             android:title="@string/phonemotion_title">
@@ -100,7 +97,142 @@
                 android:targetClass="com.tmobile.themechooser.ThemeChooser" />
     </header>
 
-     <!-- ParanoidAndroid Header -->
+    <!-- AOKP Settings -->
+
+    <!-- * aokp_about 
+         * aokp_userinterface
+         * aokp_lockscreens
+         * aokp_powermenu
+         * aokp_navbar
+         * aokp_statusbarbattery
+         * aokp_statusbarclock
+         * aokp_statusbartoggles
+         * aokp_statusbarsignals
+         * aokp_ledcontrol
+         * aokp_sound
+         * aokp_weather
+         * aokp_vibrations
+         * aokp_performance
+    -->
+
+    <header android:title="@string/aokp_header" />
+
+    <header android:icon="@drawable/ic_rom_control_about"
+            android:title="@string/aokp_about">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.About" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_general"
+            android:title="@string/aokp_userinterface">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.UserInterface" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_lockscreens"
+            android:title="@string/aokp_lockscreens">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.Lockscreens" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_powermenu"
+            android:title="@string/aokp_powermenu">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.PowerMenu" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_navbar"
+            android:title="@string/aokp_navbar">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.NavBar" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_statusbarbattery"
+            android:title="@string/aokp_statusbarbattery">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.StatusBarBattery" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_statusbarclock"
+            android:title="@string/aokp_statusbarclock">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.StatusBarClock" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_statusbartoggles"
+            android:title="@string/aokp_statusbartoggles">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.StatusBarToggles" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_statusbarsignals"
+            android:title="@string/aokp_statusbarsignals">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.StatusBarSignals" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_ledcontrol"
+            android:title="@string/aokp_ledcontrol">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.LedControl" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_sound"
+            android:title="@string/aokp_sound">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.Sound" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_weather"
+            android:title="@string/aokp_weather">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.Weather" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_vibrations"
+            android:title="@string/aokp_vibrations">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.Vibrations" />
+    </header>
+
+    <header android:icon="@drawable/ic_rom_control_performance"
+            android:title="@string/aokp_performance">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.aokp.romcontrol"
+                android:targetClass="com.aokp.romcontrol.fragments.performance" />
+    </header>
+
+    <!-- Paranoid Android Settings -->
+
+    <header android:title="@string/paranoid_android_header" />
+
     <header
         android:id="@+id/paranoid_settings"
         android:icon="@drawable/ic_settings_paranoid"
@@ -110,6 +242,15 @@
             android:targetPackage="com.paranoid.preferences"
             android:targetClass="com.paranoid.preferences.PreferenceListActivity" />
     </header>
+
+    <!-- ######################## -->
+    <!-- End of List o' mods      -->
+    <!-- ######################## -->
+
+    <!-- DEVICE -->
+    <header android:title="@string/header_category_device" />
+
+    <!-- Custom Device settings (CM) -->
     
     <header android:id="@+id/advanced_settings"
             android:title="@string/advanced_settings_title"
@@ -119,9 +260,6 @@
                 android:targetPackage="com.cyanogenmod.settings.device"
                 android:targetClass="com.cyanogenmod.settings.device.DeviceSettings" />
     </header>
-
-    <!-- DEVICE -->
-    <header android:title="@string/header_category_device" />
 
     <!-- Sound -->
     <header
