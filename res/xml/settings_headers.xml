@@ -189,7 +189,7 @@
                 android:targetClass="com.aokp.romcontrol.fragments.StatusBarSignals" />
     </header>
 
-    <header android:icon="@drawable/ic_rom_control_ledcontrol"
+    <header android:icon="@drawable/ic_rom_control_led"
             android:title="@string/aokp_ledcontrol">
         <intent
                 android:action="android.intent.action.MAIN"
