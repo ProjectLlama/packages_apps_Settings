@@ -141,7 +141,7 @@
                 android:targetClass="com.aokp.romcontrol.fragments.Lockscreens" />
     </header>
 
-    <header android:icon="@drawable/ic_rom_control_powermenu"
+    <header android:icon="@drawable/ic_rom_control_power_menu"
             android:title="@string/aokp_powermenu">
         <intent
                 android:action="android.intent.action.MAIN"
@@ -149,7 +149,7 @@
                 android:targetClass="com.aokp.romcontrol.fragments.PowerMenu" />
     </header>
 
-    <header android:icon="@drawable/ic_rom_control_navbar"
+    <header android:icon="@drawable/ic_rom_control_navigation_bar"
             android:title="@string/aokp_navbar">
         <intent
                 android:action="android.intent.action.MAIN"
@@ -157,7 +157,7 @@
                 android:targetClass="com.aokp.romcontrol.fragments.NavBar" />
     </header>
 
-    <header android:icon="@drawable/ic_rom_control_statusbarbattery"
+    <header android:icon="@drawable/ic_rom_control_battery"
             android:title="@string/aokp_statusbarbattery">
         <intent
                 android:action="android.intent.action.MAIN"
@@ -165,7 +165,7 @@
                 android:targetClass="com.aokp.romcontrol.fragments.StatusBarBattery" />
     </header>
 
-    <header android:icon="@drawable/ic_rom_control_statusbarclock"
+    <header android:icon="@drawable/ic_rom_control_clock"
             android:title="@string/aokp_statusbarclock">
         <intent
                 android:action="android.intent.action.MAIN"
@@ -173,7 +173,7 @@
                 android:targetClass="com.aokp.romcontrol.fragments.StatusBarClock" />
     </header>
 
-    <header android:icon="@drawable/ic_rom_control_statusbartoggles"
+    <header android:icon="@drawable/ic_rom_control_toggles"
             android:title="@string/aokp_statusbartoggles">
         <intent
                 android:action="android.intent.action.MAIN"
@@ -181,7 +181,7 @@
                 android:targetClass="com.aokp.romcontrol.fragments.StatusBarToggles" />
     </header>
 
-    <header android:icon="@drawable/ic_rom_control_statusbarsignals"
+    <header android:icon="@drawable/ic_rom_control_signal"
             android:title="@string/aokp_statusbarsignals">
         <intent
                 android:action="android.intent.action.MAIN"

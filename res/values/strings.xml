@@ -4183,6 +4183,7 @@
     <string name="aokp_userinterface">User Interface</string>
     <string name="aokp_lockscreens">Lockscreen</string>
     <string name="aokp_navbar">Navigation Bar</string>
+    <string name="aokp_powermenu">Power Menu</string>
     <string name="aokp_statusbarbattery">Status Bar Battery</string>
     <string name="aokp_statusbarclock">Status Bar Clock</string>
     <string name="aokp_statusbartoggles">Status Bar Toggles</string>
